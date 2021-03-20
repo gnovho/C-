@@ -1,4 +1,4 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/vongho/Documents/working_code/C++/untitled
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/vongho/Documents/working_code/C++/tohop
 -- The C compiler identification is AppleClang 12.0.0.12000032
 -- The CXX compiler identification is AppleClang 12.0.0.12000032
 -- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc
@@ -15,4 +15,4 @@
 -- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/vongho/Documents/working_code/C++/untitled/cmake-build-debug
+-- Build files have been written to: /Users/vongho/Documents/working_code/C++/tohop/cmake-build-debug
