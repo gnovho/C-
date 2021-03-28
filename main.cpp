@@ -16,7 +16,7 @@ void chuoidoixung(string chuoi, int index, int n){
                 listResult.push_back(chuoi);
                 return;
             }else{
-                string chuoi1 = chuoi+" " + to_string(i);
+                string chuoi1 = chuoi + to_string(i);
                 chuoidoixung(chuoi1, index+1, n);
             }
         }
@@ -28,7 +28,7 @@ void chuoidoixung(string chuoi, int index, int n){
                 listResult.push_back(chuoi);
                 return;
             } else {
-                string chuoi1 = chuoi + " " + to_string(i);
+                string chuoi1 = chuoi + to_string(i);
                 chuoidoixung(chuoi1, index + 1, n);
             }
         }
@@ -67,17 +67,26 @@ int main() {
         lala = listResult.back();
         listResult.pop_back();
         lare = reverseStr(lala);
+
         // n is odd
-        if (n %2 == 0){
-            lala = lala + " " + lare;
+        if (n % 2 == 0){
+            lala = lala + lare;
         }
         // n is even
         if (n%2 != 0){
             lala = lala + lare.erase(0,1);
         }
 
-        cout << lala << endl;
-    }
+        for (int i=0; i < lala.length(); i++)
+            if (i == lala.length()-1) {
+                cout << lala[i] << endl;
+            }
+            else {
+                cout << lala[i] << "\t";
+            }
+        }
 
     return 0;
 }
+
+
