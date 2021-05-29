@@ -85,8 +85,5 @@ int main() {
                 cout << lala[i] << "\t";
             }
         }
-
     return 0;
 }
-
-
